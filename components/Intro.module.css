@@ -1,0 +1,191 @@
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heroSection {
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .heroSection h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .heroSection p {
+    font-size: 22px;
+    color: black;
+    font-weight: 350;
+    margin: 0 auto;
+    width: 61%;
+  }
+
+  .recommendationsDropdown {
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .itemsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 4% 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .itemsInfo {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .filterLink {
+    margin-left: 20px;
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .filterLink:hover {
+    text-decoration: underline;
+  }
+  
+  .profileImages {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .para {
+    width: 50%;
+  }
+  
+  .sortingOption {
+    font-size: 14px;
+    font-weight: bold;
+    color: #888;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .heroSection h1 {
+      font-size: 36px; 
+      margin-bottom: 10px;
+      width: 100%; 
+    }
+  
+    .heroSection p {
+      font-size: 18px; 
+      width: 100%; 
+      margin: 0 auto;
+    }
+  
+    .itemsSection {
+      flex-direction: column; 
+      align-items: flex-start;
+      padding: 10px 0;
+    }
+  
+    .itemsInfo {
+      font-size: 14px; 
+      margin-bottom: 10px;
+    }
+  
+    .filterLink {
+      margin-left: 0;
+      margin-top: 10px;
+      font-size: 12px; 
+    }
+  
+    .profileImages {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .profileImage {
+      margin-left: 0; 
+      margin-bottom: 10px; 
+    }
+  
+    .para {
+      width: 100%;
+      margin-bottom: 20px; 
+    }
+  
+    .sortingOption {
+      font-size: 12px; 
+    }
+  }
+  
+  
+  .itemsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 2% 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .itemsInfo {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .filterLink {
+    margin-left: 60px;
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  
+  .filterLink:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .itemsSection {
+      flex-direction: column; 
+      align-items: flex-start; 
+      text-align: center; 
+    }
+  
+    .itemsInfo {
+      width: 100%; 
+      justify-content: center; 
+      margin-bottom: 10px; 
+    }
+  
+    .filterLink {
+      margin-left: 0; 
+      margin-top: 10px; 
+      font-size: 14px; 
+      text-align: center; 
+      width: 100%; 
+    }
+  }

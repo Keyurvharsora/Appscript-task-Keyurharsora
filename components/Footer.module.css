@@ -1,0 +1,134 @@
+/* components/Footer.module.css */
+.main {
+    background-color: #000000;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+    background-color: #000000; /* Adjust background color if needed */
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid white;
+}
+
+.leftSection, .rightSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+
+}
+
+.leftSection {
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.rightSection {
+    margin-top: 20px; /* Consistent margin from top */
+    margin-right: 160px; /* Adjust spacing between sections if needed */
+}
+
+.title {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; /* Text color */
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.emailInput {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px; /* Adjust width if needed */
+    font-size: 14px; /* Ensure text size is readable */
+}
+
+.subscribeButton {
+    padding: 8px 16px;
+    border: none;
+    background-color: #91adb4;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.subscribeButton:hover {
+    background-color: #4a90e2; /* Darker shade on hover */
+}
+
+.contactInfo, .currencyInfo {
+    margin-bottom: 20px; /* Space between sections */
+}
+.main p {
+    color: white;
+    font-size: 10px;
+}
+
+.bottomSection {
+    display: flex;
+    justify-content: space-between; /* Align items in a row with space between them */
+    padding: 20px;
+    background-color: #000000;
+}
+
+.section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.section h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.section p {
+    font-size: 12px;
+    color: white;
+    margin: 5px 0;
+    margin-left: 70px;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.socialIcon {
+    width: 5%; 
+    height: 5%;
+}
+
+.paymentTitle {
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 16px;
+    color: white;
+}
+
+.paymentMethods {
+    display: flex;
+    gap: 15px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
